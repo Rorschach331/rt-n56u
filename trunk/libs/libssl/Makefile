@@ -1,4 +1,4 @@
-SRC_NAME=openssl-1.1.1k
+SRC_NAME=openssl-1.1.1t
 SRC_URL=https://www.openssl.org/source/$(SRC_NAME).tar.gz
 
 # openssl use CROSS_COMPILE prefix
@@ -41,7 +41,6 @@ download_test:
 extract_test:
 	( if [ ! -d $(SRC_NAME) ]; then \
 		tar -xf $(SRC_NAME).tar.gz; \
-		patch -d $(SRC_NAME) -p1 < $(SRC_NAME).patch; \
 	fi )
 
 config_test:
