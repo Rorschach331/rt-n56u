@@ -56,4 +56,4 @@ clean:
 
 romfs:
 	$(ROMFSINST) $(SRC_NAME)/src/openvpn/openvpn /usr/sbin/openvpn
-	$(ROMFSINST) /usr/bin/openvpn-cert.sh
+	$(ROMFSINST) -p +x /usr/bin/openvpn-cert.sh
