@@ -59,7 +59,7 @@
 # Debian/Ubuntu
 sudo apt update
 sudo apt install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd \
-	fakeroot kmod cpio git python-docutils gettext automake autopoint \
+	fakeroot kmod cpio git python3-docutils gettext automake autopoint \
 	texinfo build-essential help2man pkg-config zlib1g-dev libgmp3-dev \
 	libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget libc-dev-bin
 
@@ -101,7 +101,7 @@ sudo yum install ncurses-* flex byacc bison zlib-* gmp-* mpfr-* gettext \
 * 克隆源码
 
 ```shell
-git clone --depth=1 https://github.com/chongshengB/rt-n56u.git /opt/rt-n56u
+git clone --depth=1 https://github.com/Rorschach331/rt-n56u.git /opt/rt-n56u
 ```
 
 * 准备工具链
